@@ -7,11 +7,13 @@
   "author": "PancakeSwap",
   "license": "GPL-3.0-or-later",
   "workspaces": [
-    "subgraphs/**/*"
+    "subgraphs/exchange-v3/**"
   ],
   "scripts": {
     "codegen": "turbo run codegen",
     "build": "turbo run build",
+    "create-local": "turbo run create-local",
+    "deploy-local": "turbo run deploy-local",
     "format:check": "prettier --check '*/**/*.{js,ts}'",
     "format:write": "prettier --write '*/**/*.{js,ts}'",
     "lint": "eslint '*/**/*.{js,ts}'",

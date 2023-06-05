@@ -7,6 +7,12 @@
     "build": {
       "outputs": ["build/**", "generated/**"]
     },
+    "create-local": {
+      "outputs": ["build/**", "generated/**"]
+    },
+    "deploy-local": {
+      "outputs": ["build/**", "generated/**"]
+    },
     "lint": {}
   }
 }
